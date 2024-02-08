@@ -49,7 +49,7 @@
                 <div class="footer">
                     <asp:Button ID="LoginButton" class="button" runat="server" CommandName="Login" Text="Log In"
                         ValidationGroup="Login1" />
-                    <asp:Label ID="FailureText" runat="server" Text="3 Bad attemps will Lock your windows ID."
+                    <asp:Label ID="FailureText" runat="server" Text="* Use your mHRM Credentials *"
                         CssClass="label"></asp:Label>
                 </div>
                 <!--END FOOTER-->

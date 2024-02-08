@@ -233,7 +233,7 @@ Partial Class frmUploadDocuments
             Dim webClient As WebClient = New WebClient()
             Dim FileSavePath As String = Server.MapPath("~\Attachments\") & FileName
             File.WriteAllBytes(FileSavePath, filebyte)
-            webClient.UploadFile("http://192.168.0.241/HRMAttachments/Upload.aspx", FileSavePath)
+            webClient.UploadFile("http://ext.mfilbd.com/HRMAttachments/Upload.aspx", FileSavePath)
             webClient.Dispose()
         Catch ex As Exception
             MessageBox(ex.Message)
