@@ -40,7 +40,7 @@
                         <td align="right" valign="top">
                             <asp:Label ID="lblEmpName" runat="server" Text="Label" CssClass="label"></asp:Label>
                             <asp:LoginStatus ID="lgStatus" runat="server" LogoutAction="RedirectToLoginPage"
-                                CssClass="label" ForeColor="Blue" LogoutPageUrl="~/frmUserLogin.aspx" />
+                                CssClass="label" ForeColor="Blue" LogoutPageUrl="~/Login.aspx" />
                         </td>
                     </tr>
                     <tr align="left">

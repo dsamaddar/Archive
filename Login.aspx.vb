@@ -53,6 +53,10 @@ Partial Class Login
             Session("ULCBranchID") = ""
             Session("UserType") = ""
             Session("EmployeeName") = ""
+
+            Session.Clear()
+            Session.RemoveAll()
+            Session.Abandon()
         End If
     End Sub
 
